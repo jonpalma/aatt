@@ -100,7 +100,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     // Set the recipient email address.
     // FIXME: Update this to your desired email address.
-    $recipient = "pepe.lujan2@gmail.com";
+    $recipient = "alejandro.abbud@yahoo.com";
 
     // Send the email.
     if (mail($recipient, $message_structure['subject'], $message_structure['email_content'], $email_headers)) {
